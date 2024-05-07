@@ -7,24 +7,27 @@ This README provides guidance on setting up and running the website and voice se
 ### Installation
 Website:
 
-Install Node.js.
-Navigate to the root folder (voice chat) in your terminal.
-Run npm install to set up dependencies.
+- Install Node.js.
+- Navigate to the root folder (voice chat) in your terminal.
+- Run npm install to set up dependencies.
+
 Voice Server:
 
-Install Go.
-Navigate to the backend folder in your terminal.
-Run go mod tidy to manage dependencies.
+- Install Go.
+- Navigate to the backend folder in your terminal.
+- Run go mod tidy to manage dependencies.
 
 ### Running the Project
+
 Website:
 
-Navigate to the frontend folder in your terminal.
-Run npm run dev to start the website at http://localhost:3000.
+- Navigate to the frontend folder in your terminal.
+- Run npm run dev to start the website at http://localhost:3000.
+
 Voice Server:
 
-Navigate to the api folder in your terminal.
-Run go run server.go to initiate the voice server.
+- Navigate to the api folder in your terminal.
+- Run go run server.go to initiate the voice server.
 
 
 ### Design Choices
